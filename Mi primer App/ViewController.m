@@ -44,7 +44,7 @@
                        animated:YES
                      completion:nil];*/
     
-    [self.Mietiqueta setText:@"He pulsado el boton"];
+    [self.Mietiqueta setText:[NSString stringWithFormat:@"Hola, %@",self.TextField.text]];
     
 }
 @end

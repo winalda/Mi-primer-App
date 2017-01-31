@@ -13,6 +13,7 @@
 - (IBAction)mostrarMensaje:(UIButton *)sender;
 
 @property (strong, nonatomic) IBOutlet UILabel *Mietiqueta;
+@property (strong, nonatomic) IBOutlet UITextField *TextField;
 
 @end
 
