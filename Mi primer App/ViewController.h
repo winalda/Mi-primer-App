@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)mostrarMensaje:(UIButton *)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *Mietiqueta;
 
 @end
 

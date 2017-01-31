@@ -26,4 +26,25 @@
 }
 
 
+- (IBAction)mostrarMensaje:(UIButton *)sender {
+    
+    /*UIAlertController *alerta = [UIAlertController
+                                 alertControllerWithTitle:@"Mi Primera app"
+                                 message:@"Hola estoy aprendiendo a programar IOS 9"
+                                 preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *OkAction = [UIAlertAction
+                               actionWithTitle:@"ok"
+                               style:UIAlertActionStyleDefault
+                               handler:nil];
+    
+    [alerta addAction:OkAction];
+    
+    [self presentViewController:alerta
+                       animated:YES
+                     completion:nil];*/
+    
+    [self.Mietiqueta setText:@"He pulsado el boton"];
+    
+}
 @end
