@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6A30A91E4030EA001ADDD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A30A81E4030EA001ADDD2 /* main.m */; };
+		CC6A30AC1E4030EA001ADDD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A30AB1E4030EA001ADDD2 /* AppDelegate.m */; };
+		CC6A30AF1E4030EA001ADDD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A30AE1E4030EA001ADDD2 /* ViewController.m */; };
+		CC6A30B21E4030EA001ADDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A30B01E4030EA001ADDD2 /* Main.storyboard */; };
+		CC6A30B41E4030EB001ADDD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6A30B31E4030EB001ADDD2 /* Assets.xcassets */; };
+		CC6A30B71E4030EB001ADDD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A30B51E4030EB001ADDD2 /* LaunchScreen.storyboard */; };
+		CC6A30C21E4030EB001ADDD2 /* Mi_primer_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A30C11E4030EB001ADDD2 /* Mi_primer_AppTests.m */; };
+		CC6A30CD1E4030EC001ADDD2 /* Mi_primer_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A30CC1E4030EB001ADDD2 /* Mi_primer_AppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6A30BE1E4030EB001ADDD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6A309C1E4030EA001ADDD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6A30A31E4030EA001ADDD2;
+			remoteInfo = "Mi primer App";
+		};
+		CC6A30C91E4030EB001ADDD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6A309C1E4030EA001ADDD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6A30A31E4030EA001ADDD2;
+			remoteInfo = "Mi primer App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC6A30A41E4030EA001ADDD2 /* Mi primer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi primer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6A30A81E4030EA001ADDD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC6A30AA1E4030EA001ADDD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC6A30AB1E4030EA001ADDD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC6A30AD1E4030EA001ADDD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC6A30AE1E4030EA001ADDD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC6A30B11E4030EA001ADDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC6A30B31E4030EB001ADDD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6A30B61E4030EB001ADDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC6A30B81E4030EB001ADDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6A30BD1E4030EB001ADDD2 /* Mi primer AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi primer AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6A30C11E4030EB001ADDD2 /* Mi_primer_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mi_primer_AppTests.m; sourceTree = "<group>"; };
+		CC6A30C31E4030EB001ADDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6A30C81E4030EB001ADDD2 /* Mi primer AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi primer AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6A30CC1E4030EB001ADDD2 /* Mi_primer_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mi_primer_AppUITests.m; sourceTree = "<group>"; };
+		CC6A30CE1E4030EC001ADDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6A30A11E4030EA001ADDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6A30BA1E4030EB001ADDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6A30C51E4030EB001ADDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6A309B1E4030EA001ADDD2 = {
+			isa = PBXGroup;
+			children = (
+				CC6A30A61E4030EA001ADDD2 /* Mi primer App */,
+				CC6A30C01E4030EB001ADDD2 /* Mi primer AppTests */,
+				CC6A30CB1E4030EB001ADDD2 /* Mi primer AppUITests */,
+				CC6A30A51E4030EA001ADDD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6A30A51E4030EA001ADDD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A30A41E4030EA001ADDD2 /* Mi primer App.app */,
+				CC6A30BD1E4030EB001ADDD2 /* Mi primer AppTests.xctest */,
+				CC6A30C81E4030EB001ADDD2 /* Mi primer AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6A30A61E4030EA001ADDD2 /* Mi primer App */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A30AA1E4030EA001ADDD2 /* AppDelegate.h */,
+				CC6A30AB1E4030EA001ADDD2 /* AppDelegate.m */,
+				CC6A30AD1E4030EA001ADDD2 /* ViewController.h */,
+				CC6A30AE1E4030EA001ADDD2 /* ViewController.m */,
+				CC6A30B01E4030EA001ADDD2 /* Main.storyboard */,
+				CC6A30B31E4030EB001ADDD2 /* Assets.xcassets */,
+				CC6A30B51E4030EB001ADDD2 /* LaunchScreen.storyboard */,
+				CC6A30B81E4030EB001ADDD2 /* Info.plist */,
+				CC6A30A71E4030EA001ADDD2 /* Supporting Files */,
+			);
+			path = "Mi primer App";
+			sourceTree = "<group>";
+		};
+		CC6A30A71E4030EA001ADDD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A30A81E4030EA001ADDD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC6A30C01E4030EB001ADDD2 /* Mi primer AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A30C11E4030EB001ADDD2 /* Mi_primer_AppTests.m */,
+				CC6A30C31E4030EB001ADDD2 /* Info.plist */,
+			);
+			path = "Mi primer AppTests";
+			sourceTree = "<group>";
+		};
+		CC6A30CB1E4030EB001ADDD2 /* Mi primer AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A30CC1E4030EB001ADDD2 /* Mi_primer_AppUITests.m */,
+				CC6A30CE1E4030EC001ADDD2 /* Info.plist */,
+			);
+			path = "Mi primer AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6A30A31E4030EA001ADDD2 /* Mi primer App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6A30D11E4030EC001ADDD2 /* Build configuration list for PBXNativeTarget "Mi primer App" */;
+			buildPhases = (
+				CC6A30A01E4030EA001ADDD2 /* Sources */,
+				CC6A30A11E4030EA001ADDD2 /* Frameworks */,
+				CC6A30A21E4030EA001ADDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mi primer App";
+			productName = "Mi primer App";
+			productReference = CC6A30A41E4030EA001ADDD2 /* Mi primer App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC6A30BC1E4030EB001ADDD2 /* Mi primer AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6A30D41E4030EC001ADDD2 /* Build configuration list for PBXNativeTarget "Mi primer AppTests" */;
+			buildPhases = (
+				CC6A30B91E4030EB001ADDD2 /* Sources */,
+				CC6A30BA1E4030EB001ADDD2 /* Frameworks */,
+				CC6A30BB1E4030EB001ADDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6A30BF1E4030EB001ADDD2 /* PBXTargetDependency */,
+			);
+			name = "Mi primer AppTests";
+			productName = "Mi primer AppTests";
+			productReference = CC6A30BD1E4030EB001ADDD2 /* Mi primer AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC6A30C71E4030EB001ADDD2 /* Mi primer AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6A30D71E4030EC001ADDD2 /* Build configuration list for PBXNativeTarget "Mi primer AppUITests" */;
+			buildPhases = (
+				CC6A30C41E4030EB001ADDD2 /* Sources */,
+				CC6A30C51E4030EB001ADDD2 /* Frameworks */,
+				CC6A30C61E4030EB001ADDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6A30CA1E4030EB001ADDD2 /* PBXTargetDependency */,
+			);
+			name = "Mi primer AppUITests";
+			productName = "Mi primer AppUITests";
+			productReference = CC6A30C81E4030EB001ADDD2 /* Mi primer AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6A309C1E4030EA001ADDD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Erick Alberto Morales Ledesma";
+				TargetAttributes = {
+					CC6A30A31E4030EA001ADDD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CC6A30BC1E4030EB001ADDD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC6A30A31E4030EA001ADDD2;
+					};
+					CC6A30C71E4030EB001ADDD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC6A30A31E4030EA001ADDD2;
+					};
+				};
+			};
+			buildConfigurationList = CC6A309F1E4030EA001ADDD2 /* Build configuration list for PBXProject "Mi primer App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6A309B1E4030EA001ADDD2;
+			productRefGroup = CC6A30A51E4030EA001ADDD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6A30A31E4030EA001ADDD2 /* Mi primer App */,
+				CC6A30BC1E4030EB001ADDD2 /* Mi primer AppTests */,
+				CC6A30C71E4030EB001ADDD2 /* Mi primer AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6A30A21E4030EA001ADDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6A30B71E4030EB001ADDD2 /* LaunchScreen.storyboard in Resources */,
+				CC6A30B41E4030EB001ADDD2 /* Assets.xcassets in Resources */,
+				CC6A30B21E4030EA001ADDD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6A30BB1E4030EB001ADDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6A30C61E4030EB001ADDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6A30A01E4030EA001ADDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6A30AF1E4030EA001ADDD2 /* ViewController.m in Sources */,
+				CC6A30AC1E4030EA001ADDD2 /* AppDelegate.m in Sources */,
+				CC6A30A91E4030EA001ADDD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6A30B91E4030EB001ADDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6A30C21E4030EB001ADDD2 /* Mi_primer_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6A30C41E4030EB001ADDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6A30CD1E4030EC001ADDD2 /* Mi_primer_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6A30BF1E4030EB001ADDD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6A30A31E4030EA001ADDD2 /* Mi primer App */;
+			targetProxy = CC6A30BE1E4030EB001ADDD2 /* PBXContainerItemProxy */;
+		};
+		CC6A30CA1E4030EB001ADDD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6A30A31E4030EA001ADDD2 /* Mi primer App */;
+			targetProxy = CC6A30C91E4030EB001ADDD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC6A30B01E4030EA001ADDD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6A30B11E4030EA001ADDD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC6A30B51E4030EB001ADDD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6A30B61E4030EB001ADDD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6A30CF1E4030EC001ADDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC6A30D01E4030EC001ADDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6A30D21E4030EC001ADDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mi primer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kokonutstudio.Mi-primer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC6A30D31E4030EC001ADDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mi primer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kokonutstudio.Mi-primer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC6A30D51E4030EC001ADDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mi primer AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kokonutstudio.Mi-primer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi primer App.app/Mi primer App";
+			};
+			name = Debug;
+		};
+		CC6A30D61E4030EC001ADDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mi primer AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kokonutstudio.Mi-primer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi primer App.app/Mi primer App";
+			};
+			name = Release;
+		};
+		CC6A30D81E4030EC001ADDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mi primer AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kokonutstudio.Mi-primer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mi primer App";
+			};
+			name = Debug;
+		};
+		CC6A30D91E4030EC001ADDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mi primer AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kokonutstudio.Mi-primer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mi primer App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6A309F1E4030EA001ADDD2 /* Build configuration list for PBXProject "Mi primer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6A30CF1E4030EC001ADDD2 /* Debug */,
+				CC6A30D01E4030EC001ADDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6A30D11E4030EC001ADDD2 /* Build configuration list for PBXNativeTarget "Mi primer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6A30D21E4030EC001ADDD2 /* Debug */,
+				CC6A30D31E4030EC001ADDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6A30D41E4030EC001ADDD2 /* Build configuration list for PBXNativeTarget "Mi primer AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6A30D51E4030EC001ADDD2 /* Debug */,
+				CC6A30D61E4030EC001ADDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6A30D71E4030EC001ADDD2 /* Build configuration list for PBXNativeTarget "Mi primer AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6A30D81E4030EC001ADDD2 /* Debug */,
+				CC6A30D91E4030EC001ADDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6A309C1E4030EA001ADDD2 /* Project object */;
+}
